@@ -12,7 +12,7 @@ chatForm.addEventListener("submit", event => {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      "Authorization": "Bearer <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>"
+      "Authorization": "Bearer "+"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"
     },
     body: JSON.stringify({
       prompt: userMessage,
